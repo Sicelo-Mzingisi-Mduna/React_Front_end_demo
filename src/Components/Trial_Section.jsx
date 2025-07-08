@@ -1,13 +1,11 @@
 import React from "react";
-import { Tabs } from "radix-ui";
-import "./app.css";
-// import avatarImage from "./assets/Avatar.png"
+import "../Component_Styles/Trial_Section.css"
 
 
-function App() {
+function Trial_Section() {
   return (
     <div>
-	{/* --------------------------- start------------------------------- */}
+  {/* --------------------------- start------------------------------- */}
 
         <div className="w-element">
           <div className="w-element">
@@ -74,7 +72,7 @@ function App() {
                           </h5>
                           <div className="w-element c1mnwggj c10a6enm c1kwfmjt c1rx2nhk c3tuc1o c1to836g c197jkmz c17s3srt cbp56o5 c1nuwff6">
                             <h6 className="w-element c1xphpyx cw73ur2 c16l0bv6 c1j2zn79 c1chl7ad c1njnrmt ca1wzz2 c14p1bxi c17g7qlj cm7l3to c1alm8rx c17s3srt">
-                              No Credit card required, and you can cancel anytime
+                              No Credit card required, and you can cancel your subscription anytime.
                             </h6>
                           </div>
                         </div></a><a className="w-link c1kcf4zv c149a2xe c4aog8j c158yvps c1jj5ia5 c13waxfy c1qk8tr0 czhmlg cs1dg1y c1wr5t15 c1rosn03 cwl2f3u cbp56o5 caj69gj c14wgxly csdsuq c1tzyx0e cgaqczo cyzrqqh c1nmf8pb czf7a1w cuil3wh c1c2s4bs chr113t clkrh5c c1x8ohuk c1yfmkp2 cbcz7a" href="#"><div className="w-element c13wfhmo c1kbacxl cpp7zti">
@@ -117,4 +115,4 @@ function App() {
   );
 }
 
-export default App;
+export default Trial_Section;

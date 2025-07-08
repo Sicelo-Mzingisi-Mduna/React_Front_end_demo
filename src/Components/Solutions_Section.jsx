@@ -1,13 +1,11 @@
 import React from "react";
-import { Tabs } from "radix-ui";
-import "./app.css";
-// import avatarImage from "./assets/Avatar.png"
+import "../Component_Styles/Solutions_Section.css"
 
 
-function App() {
+function Solutions_Section() {
   return (
     <div>
-	{/* --------------------------- start------------------------------- */}
+  {/* --------------------------- start------------------------------- */}
         
         <div className="w-element">
           <div className="w-element">
@@ -213,4 +211,4 @@ function App() {
   );
 }
 
-export default App;
+export default Solutions_Section;

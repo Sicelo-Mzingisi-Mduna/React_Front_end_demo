@@ -8,6 +8,7 @@ import Value_Section from './Components/Value_Section.jsx'
 import Testimonial_Section from './Components/Testimonial_Section.jsx'
 import Trial_Section_v1 from './Components/Trial_Section_v1.jsx'
 import Trial_Section_v2 from './Components/Trial_Section_v2.jsx'
+import Solutions_Section from './Components/Solutions_Section.jsx'
 import Test from './Test.jsx'
 
 createRoot(document.getElementById('root')).render(
@@ -25,6 +26,7 @@ createRoot(document.getElementById('root')).render(
     <p>has background gradient on Buttons </p>
     <Trial_Section_v2 />
     <h3>************ Trial Section_v2 ******** end *******</h3>
+    <Solutions_Section />
     {/* <Test /> */}
   </StrictMode>,
 )

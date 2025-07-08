@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
 	{/* --------------------------------------- start------------------------------- */}
-  <Tabs.Root defaultValue="tabs"
+  <Tabs.Root defaultValue="tab1"
 	
                     className="w-tabs c3tuc1o cjhgaod c14wgxly csdsuq c1g5txgq cbp56o5 caj69gj c1xl7rdr c1njw6zj cxvd5ir">
 					
@@ -142,6 +142,8 @@ function App() {
                             </p>
                           </div>
                         </div>
+                     
+                      
                       
 	</Tabs.Content>
 	</Tabs.Root>

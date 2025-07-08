@@ -1,9 +1,9 @@
 import React from "react";
-import "../Component_Styles/Value_Section_Tabs.css"
+import "../Component_Styles/Value_Section_Tabs_v1.css"
 import { Tabs } from "radix-ui";
 
 
-function Value_Section_Tabs() {
+function Value_Section_Tabs_v1() {
   return (
     <div>
   {/* --------------------------------------- start------------------------------- */}
@@ -153,4 +153,4 @@ function Value_Section_Tabs() {
   );
 }
 
-export default Value_Section_Tabs;
+export default Value_Section_Tabs_v1;

@@ -1,8 +1,8 @@
 import React from "react";
-import "../Component_Styles/Trial_Section.css"
+import "../Component_Styles/Trial_Section_v1.css"
 
 
-function Trial_Section() {
+function Trial_Section_v1() {
   return (
     <div>
   {/* --------------------------- start------------------------------- */}
@@ -115,4 +115,4 @@ function Trial_Section() {
   );
 }
 
-export default Trial_Section;
+export default Trial_Section_v1;

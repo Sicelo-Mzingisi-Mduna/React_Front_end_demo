@@ -9,6 +9,7 @@ import Testimonial_Section from './Components/Testimonial_Section.jsx'
 import Trial_Section_v1 from './Components/Trial_Section_v1.jsx'
 import Trial_Section_v2 from './Components/Trial_Section_v2.jsx'
 import Solutions_Section from './Components/Solutions_Section.jsx'
+import FAQ_Section_Body from './Components/FAQ_Section_Body.jsx'
 import Test from './Test.jsx'
 
 createRoot(document.getElementById('root')).render(
@@ -27,6 +28,10 @@ createRoot(document.getElementById('root')).render(
     <Trial_Section_v2 />
     <h3>************ Trial Section_v2 ******** end *******</h3>
     <Solutions_Section />
+    <FAQ_Section_Body />
+
+    {/* -------------------TEST -------- */}
+
     {/* <Test /> */}
   </StrictMode>,
 )

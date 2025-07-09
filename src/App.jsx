@@ -1,5 +1,5 @@
 import React from "react";
-import "./app.css";
+// import "./app.css";
 import "./App.js";
 import avatarImage from "./assets/Avatar.png"
 import { Tabs } from "radix-ui";

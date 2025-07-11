@@ -10,12 +10,13 @@ import Trial_Section_v1 from './Components/Trial_Section_v1.jsx'
 import Trial_Section_v2 from './Components/Trial_Section_v2.jsx'
 import Solutions_Section from './Components/Solutions_Section.jsx'
 import FAQ_Section_Body from './Components/FAQ_Section_Body.jsx'
+import Nav_Bar from './Components/Nav_Bar.jsx'
 import Test from './Test.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <App /> */}
-    <Hero_Banner />
+    {/* <Hero_Banner />
     <Partner_Section />
     <Value_Section />
     <Testimonial_Section />
@@ -28,10 +29,12 @@ createRoot(document.getElementById('root')).render(
     <Trial_Section_v2 />
     <h3>************ Trial Section_v2 ******** end *******</h3>
     <Solutions_Section />
-    <FAQ_Section_Body />
+    <FAQ_Section_Body /> */}
+
+    {/* <Nav_Bar /> */}
 
     {/* -------------------TEST -------- */}
 
-    {/* <Test /> */}
+    <Test />
   </StrictMode>,
 )

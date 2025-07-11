@@ -1,181 +1,90 @@
 import React from "react";
-import * as Accordion from "@radix-ui/react-accordion"; // corrected import
+import { NavigationMenu } from "radix-ui"; // corrected import
 import "./Test.css";
 
 function App() {
   return (
     <div>
       {/* --------------------------- start------------------------------- */}
-        <div className="w-element">
-          <div className="w-element">
-            <div className="w-element">
-              <div className="w-element">
-                <div className="w-element">
-                  <div className="w-element ctrnopk c1xt8t8a c3tuc1o cjhgaod cva5yiq caj69gj c14wgxly csdsuq">
-                    <div className="w-element c1cc0roi c142isvi c3tuc1o cjhgaod cva5yiq caj69gj c78s2i7 c8canks ctrnopk c1xt8t8a cptw6lb">
-					
-					
-<Accordion.Root
-type="multiple"
-collapsible
-defaultValue="item-1"
-					  
-					  className="w-accordion" data-orientation="vertical">
+        
 
-{/* Item 1 */}                        
 
-<Accordion.Item value="item-1"
-						className="w-item c16tgxou"
-						data-state="open" data-orientation="vertical" data-ws-index={0}
-						>
-						
-						
-                          <h3 data-orientation="vertical" data-state="open" className="w-item-header c3tuc1o">
-						  
-						  
-<Accordion.Trigger
-							
-							className="w-item-trigger c17s3srt c1qk8tr0 czhmlg cs1dg1y c1wr5t15 c1xl7rdr c1g5txgq cb5gdj3 c13an6qd c3tuc1o c1fa9t26 cvubeyy c1or2fm7 cbp56o5 c1tosfr5 cgt9zz4 c49x0c7 c1pjj69s c1pffa1d cxfzo7d cwr7eqp c1ajerut c9tvn26" data-radix-collection-item
-							aria-controls="radix-:Rm:" aria-expanded="true" data-state="open" data-orientation="vertical" id="radix-:R6:">
-                              <div className="w-text c1alm8rx cmuzm2h c1s8mw8h c1jy7n11 c1feb0u7 cptw6lb">
-                                1. What is Neuro's and how does it differ from
-                                other analytics platforms
-                              </div>
-                              <div className="w-box c1je0yw8 c1qjqynw c1xmwae2 c1wf2jh4 c1twibre c1sffrl0 c1scdndq c1hjq8pu critdah">
-                                <div className="w-html-embed">
-                                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16" width="100%" height="100%" style={{display: 'block'}}>
-                                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" d="m4 6 4 4 4-4" />
-                                  </svg>
-                                </div>
-                              </div>
-							  
-</Accordion.Trigger>
-</h3> 							
-							
-<Accordion.Content
-						  className="w-item-content co0vv7x c1kbbfij cq1j38b cmuzm2h c1twibre c8etcqd c1scdndq c1hjq8pu critdah cptw6lb"
-						  data-state="open" id="radix-:Rm:" role="region" aria-labelledby="radix-:R6:" data-orientation="vertical"
-						  style={{
-              "--radix-accordion-content-height":
-                "var(--radix-collapsible-content-height)",
-              "--radix-accordion-content-width":
-                "var(--radix-collapsible-content-width)",
-            }}>
-                            Neuro's is an AI-Powered business analytics
-                            platform designed to provide real-time insights,
-                            predictive analytics, and seamless integration with
-                            various tolls. Unlike traditional analytics platforms,
-                            Neuro's harnesses the power of artificial
-                            intelligence to offer more accurate forecasts,
-                            customizable dashboards, and a user-friendly interface
-                            tailored for businesses of all sizes.
-							
-</Accordion.Content>
-</Accordion.Item>
-                         
-						
-{/* Item 2 */}						
-<Accordion.Item value="item-2"
-						className="w-item c16tgxou"
-						data-state="open" data-orientation="vertical" data-ws-index={1}
-						>
-						
-						
-                          <h3 data-orientation="vertical" data-state="closed" className="w-item-header c3tuc1o">
-						  
-						  
-<Accordion.Trigger 
-							
-							className="w-item-trigger c17s3srt c1qk8tr0 czhmlg cs1dg1y c1wr5t15 c1xl7rdr c1g5txgq cb5gdj3 c13an6qd c3tuc1o c1fa9t26 cvubeyy c1or2fm7 cbp56o5 c1tosfr5 cgt9zz4 c49x0c7 c1pjj69s c1pffa1d cxfzo7d cwr7eqp c1ajerut c9tvn26"
-							aria-controls="radix-:Rq:" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-:Ra:"							data-radix-collection-item>
-                              <div className="w-text c1alm8rx cmuzm2h c1s8mw8h c1jy7n11 c1feb0u7 cptw6lb">
-                                2. Is my data secure on Neuro's
-                              </div>
-                              <div className="w-box c1je0yw8 c1qjqynw c1xmwae2 c1wf2jh4 c1twibre c1sffrl0 c1scdndq c1hjq8pu critdah">
-                                <div className="w-html-embed">
-                                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16" width="100%" height="100%" style={{display: 'block'}}>
-                                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" d="m4 6 4 4 4-4" />
-                                  </svg>
-                                </div>
-                              </div>
-							  
-</Accordion.Trigger>
-</h3> 
-<Accordion.Content
-						  className="w-item-content co0vv7x c1kbbfij cq1j38b cmuzm2h c1twibre c8etcqd c1scdndq c1hjq8pu critdah cptw6lb"
-						  data-state="open" id="radix-:Rm:" role="region" aria-labelledby="radix-:R6:" data-orientation="vertical"
-						  style={{
-              "--radix-accordion-content-height":
-                "var(--radix-collapsible-content-height)",
-              "--radix-accordion-content-width":
-                "var(--radix-collapsible-content-width)",
-            }}>
-                            Neuro's is an AI-Powered business analytics
-                            platform designed to provide real-time insights,
-                            predictive analytics, and seamless integration with
-                            various tolls. Unlike traditional analytics platforms,
-                            Neuro's harnesses the power of artificial
-                            intelligence to offer more accurate forecasts,
-                            customizable dashboards, and a user-friendly interface
-                            tailored for businesses of all sizes.
-							
-</Accordion.Content> 
-</Accordion.Item>       
-{/* Item 3 */}						
-<Accordion.Item value="item-3"
-						 className="w-item c16tgxou"
-						data-state="closed" data-orientation="vertical" data-ws-index={1}>
-						
-						
-                          <h3 data-orientation="vertical" data-state="closed" className="w-item-header c3tuc1o">
-						  
-						  
-<Accordion.Trigger 
-							
-							className="w-item-trigger c17s3srt c1qk8tr0 czhmlg cs1dg1y c1wr5t15 c1xl7rdr c1g5txgq cb5gdj3 c13an6qd c3tuc1o c1fa9t26 cvubeyy c1or2fm7 cbp56o5 c1tosfr5 cgt9zz4 c49x0c7 c1pjj69s c1pffa1d cxfzo7d cwr7eqp c1ajerut c9tvn26"
-							aria-controls="radix-:Rq:" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-:Ra:"							data-radix-collection-item>
-                              <div className="w-text c1alm8rx cmuzm2h c1s8mw8h c1jy7n11 c1feb0u7 cptw6lb">
-                                2. Is my data secure on Neuro's
-                              </div>
-                              <div className="w-box c1je0yw8 c1qjqynw c1xmwae2 c1wf2jh4 c1twibre c1sffrl0 c1scdndq c1hjq8pu critdah">
-                                <div className="w-html-embed">
-                                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16" width="100%" height="100%" style={{display: 'block'}}>
-                                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" d="m4 6 4 4 4-4" />
-                                  </svg>
-                                </div>
-                              </div>
-							  
-</Accordion.Trigger>
-</h3> 
-<Accordion.Content
-						  className="w-item-content co0vv7x c1kbbfij cq1j38b cmuzm2h c1twibre c8etcqd c1scdndq c1hjq8pu critdah cptw6lb"
-						  data-state="open" id="radix-:Rm:" role="region" aria-labelledby="radix-:R6:" data-orientation="vertical"
-						  style={{
-              "--radix-accordion-content-height":
-                "var(--radix-collapsible-content-height)",
-              "--radix-accordion-content-width":
-                "var(--radix-collapsible-content-width)",
-            }}>
-                            Neuro's is an AI-Powered business analytics
-                            platform designed to provide real-time insights,
-                            predictive analytics, and seamless integration with
-                            various tolls. Unlike traditional analytics platforms,
-                            Neuro's harnesses the power of artificial
-                            intelligence to offer more accurate forecasts,
-                            customizable dashboards, and a user-friendly interface
-                            tailored for businesses of all sizes.
-							
-</Accordion.Content>          
-</Accordion.Item>
-</Accordion.Root>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
+<NavigationMenu.Root
 
+	  className="w-navigation-menu c142isvi c1fzucwy" aria-label="Main" data-orientation="horizontal" dir="ltr"
+	  >
+        <div style={{position: 'relative'}}>
+		
+<NavigationMenu.List
+
+		  className="w-menu-list c3tuc1o c1fa9t26 cvubeyy c1or2fm7 c1jpy3ei cbp56o5 caj69gj cuun7dk c111jzi5 c1s3ggiv crm67c" dir="ltr" data-orientation="horizontal">
+		  
+<NavigationMenu.Item
+
+			className="w-menu-item" data-ws-index={0} >
+			
+<NavigationMenu.Trigger
+
+			  className="w-button cwl2f3u cbp56o5 caj69gj c1r5010r czl774b c17dmsiz cderfip cdm7nkc c1h535eq c4g61lc cgt9zz4 c1mt95zf cpp7zti cepxa7e cd5zr88 c1f293h0 cwj97fw cxvxq2t c11y537s cwg8xh1 cjzcb30 c1k0pd2f c157zhbd cm58s1q c1vktrm1 c8ggndt" id="radix-:R2:-trigger-0" data-state="closed" aria-expanded="false" aria-controls="radix-:R2:-content-0" data-radix-collection-item>
+                <div className="w-text c1dub75d">Features</div>
+                
+                <div className="w-box c1atdqqi clwj32u c1qjqynw c1xmwae2 c1wf2jh4 c1twibre c1sffrl0 c1scdndq c1hjq8pu critdah">
+                  <div className="w-html-embed">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16" width="100%" height="100%" style={{display: 'block'}}>
+                      <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" d="m4 6 4 4 4-4" />
+                    </svg>
+                  </div>
+                </div>
+				
+</NavigationMenu.Trigger>
+</NavigationMenu.Item>
+
+<NavigationMenu.Item
+			
+			  className="w-menu-item" data-ws-index={1} >
+			  
+<NavigationMenu.Trigger
+
+			  className="w-button cwl2f3u cbp56o5 caj69gj c1r5010r czl774b c17dmsiz cderfip cdm7nkc c1h535eq c4g61lc cgt9zz4 c1mt95zf cpp7zti cepxa7e cd5zr88 c1f293h0 cwj97fw cxvxq2t c11y537s cwg8xh1 cjzcb30 c1k0pd2f c157zhbd cm58s1q c1vktrm1 c8ggndt" id="radix-:R2:-trigger-1" data-state="closed" aria-expanded="false" aria-controls="radix-:R2:-content-1" data-radix-collection-item>
+                <div className="w-text c1dub75d">Case Studies</div>
+                <div className="w-box c1atdqqi clwj32u c1qjqynw c1xmwae2 c1wf2jh4 c1twibre c1sffrl0 c1scdndq c1hjq8pu critdah">
+                  <div className="w-html-embed">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 16" width="100%" height="100%" style={{display: 'block'}}>
+                      <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" d="m4 6 4 4 4-4" />
+                    </svg>
+                  </div>
+                </div>
+				
+</NavigationMenu.Trigger>
+</NavigationMenu.Item>
+  
+<NavigationMenu.Item
+
+			className="w-menu-item" data-ws-index={2}>
+			
+
+<NavigationMenu.Link asChild>		
+              <a className="w-link cwl2f3u cbp56o5 caj69gj c1r5010r czl774b c17dmsiz cderfip cdm7nkc c1h535eq c4g61lc cgt9zz4 c1mt95zf cpp7zti cepxa7e cd5zr88 c1f293h0 c1dub75d c1ntrrwq cxvxq2t c11y537s cwg8xh1 cjzcb30 c1k0pd2f c157zhbd cm58s1q c1vktrm1" data-radix-collection-item href="#">Pricing</a>
+</NavigationMenu.Link>
+</NavigationMenu.Item>
+
+
+<NavigationMenu.Item
+			 className="w-menu-item" data-ws-index={3}>
+			 
+<NavigationMenu.Link asChild>
+              <a className="w-link cwl2f3u cbp56o5 caj69gj c1r5010r czl774b c17dmsiz cderfip cdm7nkc c1h535eq c4g61lc cgt9zz4 c1mt95zf cpp7zti cepxa7e cd5zr88 c1f293h0 c1dub75d c1ntrrwq cxvxq2t c11y537s cwg8xh1 cjzcb30 c1k0pd2f c157zhbd cm58s1q c1vktrm1" data-radix-collection-item href="#">Applications</a>
+</NavigationMenu.Link>
+
+
+        
+		
+		
+        <div className="w-box c1ii5as9 c3tuc1o c1nuwff6 c1qhjrf0 c3u0m42 c15isj92 clku617 c1grwgba c15efqou c15du7zi c1jef5x3 c1vdaccu c1nsen97 c12pnkqp c1bzogdj cqqftgn c1s0s7yj c1wj9v8d cbp56o5 ct6fq1h cjopf5y cunu20p c1ezky4p c1rlax4o c1x71pf8 c8bvq1m c1rbcwb6 co0vv7x c1kbbfij c1uw7mdm cdb0mpi cw53dka c6eawft c133r9se cuym95r c9wu7le c1a72k2b c1e62pzb cg63bzn cn5eujd cafpnsu cxt9705 c1m6hv0r cc46koh c14pknt7 cqprsqy cj6ij7r c1eo8i3o c6j4iwe cvkd6tr cq4w2am cnor12r c1aifpz4" />
+</NavigationMenu.Item>
+</NavigationMenu.List>
+</div>		
+</NavigationMenu.Root>
       {/* ---------------------------------------end ------------------------- */}
     </div>
   );
